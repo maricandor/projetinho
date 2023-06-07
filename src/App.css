@@ -1,0 +1,63 @@
+/* Estilos para o componente App */
+
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333333;
+  }
+  
+  button {
+    background-color: #fbbd08;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #f59f00;
+  }
+  
+  .squares-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .square {
+    background-color: #3f88c5;
+    color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  .square h2 {
+    margin-top: 0;
+  }
+  
+  .square p {
+    margin-top: 10px;
+  }
+  
+  .square ul {
+    padding-left: 20px;
+  }
+  
+  .square li {
+    margin-bottom: 5px;
+  }
+  
+  .line {
+    position: absolute;
+    width: 4px;
+    background-color: #fbbd08;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  
